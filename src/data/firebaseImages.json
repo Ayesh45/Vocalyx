@@ -1,0 +1,31 @@
+{
+  "festivals": {
+    "diwali": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Diwali",
+    "holi": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Holi",
+    "pongal": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Pongal",
+    "eid": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Eid",
+    "christmas": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Christmas",
+    "navratri": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Navratri",
+    "durga-puja": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Durga+Puja",
+    "ganesh-chaturthi": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Ganesh",
+    "onam": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Onam",
+    "raksha-bandhan": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Raksha"
+  },
+  "food": {
+    "dosa": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Dosa",
+    "idli": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Idli",
+    "poha": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Poha",
+    "puri": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Puri",
+    "chapati": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Chapati",
+    "sambar": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Sambar",
+    "rasam": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Rasam",
+    "upma": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Upma",
+    "vada": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Vada",
+    "aloo-paratha": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Aloo",
+    "chole-bhature": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Chole",
+    "biryani": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Biryani",
+    "idiyappam": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Idiyappam",
+    "pongal-food": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Pongal",
+    "dhokla": "https://via.placeholder.com/200x200/ec4899/ffffff?text=Dhokla"
+  }
+}

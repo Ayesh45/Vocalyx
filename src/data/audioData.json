@@ -1,0 +1,77 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "name": "Greetings",
+      "items": [
+        { "id": "gm", "en": "Good Morning", "hi": "सुप्रभात", "ta": "காலை வணக்கம்" },
+        { "id": "ga", "en": "Good Afternoon", "hi": "शुभ दोपहर", "ta": "மதிய வணக்கம்" },
+        { "id": "ge", "en": "Good Evening", "hi": "शुभ संध्या", "ta": "மாலை வணக்கம்" },
+        { "id": "gn", "en": "Good Night", "hi": "शुभ रात्रि", "ta": "இரவு வணக்கம்" },
+        { "id": "hi", "en": "Hello", "hi": "नमस्ते", "ta": "வணக்கம்" }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Family",
+      "items": [
+        { "id": "father", "en": "Father", "hi": "पिता", "ta": "அப்பா" },
+        { "id": "mother", "en": "Mother", "hi": "माँ", "ta": "அம்மா" },
+        { "id": "brother", "en": "Brother", "hi": "भाई", "ta": "அண்ணன்" },
+        { "id": "sister", "en": "Sister", "hi": "बहन", "ta": "சகோதரி" },
+        { "id": "son", "en": "Son", "hi": "बेटा", "ta": "மகன்" },
+        { "id": "daughter", "en": "Daughter", "hi": "बेटी", "ta": "மகள்" },
+        { "id": "grandfather", "en": "Grandfather", "hi": "दादा", "ta": "தாத்தா" },
+        { "id": "grandmother", "en": "Grandmother", "hi": "दादी", "ta": "பாட்டி" },
+        { "id": "husband", "en": "Husband", "hi": "पति", "ta": "கணவர்" },
+        { "id": "wife", "en": "Wife", "hi": "पत्नी", "ta": "மனைவி" }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "items": [
+        { "id": "milk", "en": "Milk", "hi": "दूध", "ta": "பால்" },
+        { "id": "water", "en": "Water", "hi": "पानी", "ta": "தண்ணீர்" },
+        { "id": "rice", "en": "Rice", "hi": "चावल", "ta": "அரிசி" },
+        { "id": "bread", "en": "Bread", "hi": "रोटी", "ta": "ரொட்டி" },
+        { "id": "vegetable", "en": "Vegetable", "hi": "सब्ज़ी", "ta": "காய்கறி" },
+        { "id": "fruit", "en": "Fruit", "hi": "फल", "ta": "பழம்" },
+        { "id": "banana", "en": "Banana", "hi": "केला", "ta": "வாழைப்பழம்" },
+        { "id": "apple", "en": "Apple", "hi": "सेब", "ta": "ஆப்பிள்" },
+        { "id": "egg", "en": "Egg", "hi": "अंडा", "ta": "முட்டை" },
+        { "id": "tea", "en": "Tea", "hi": "चाय", "ta": "தேநீர்" }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "items": [
+        { "id": "road", "en": "Road", "hi": "सड़क", "ta": "சாலை" },
+        { "id": "car", "en": "Car", "hi": "कार", "ta": "கார்" },
+        { "id": "bus", "en": "Bus", "hi": "बस", "ta": "பஸ்" },
+        { "id": "train", "en": "Train", "hi": "ट्रेन", "ta": "ரயில்" },
+        { "id": "bike", "en": "Bike", "hi": "साइकिल", "ta": "மிதிவண்டி" },
+        { "id": "auto", "en": "Auto", "hi": "ऑटो", "ta": "ஆட்டோ" },
+        { "id": "truck", "en": "Truck", "hi": "ट्रक", "ta": "லாரி" },
+        { "id": "ship", "en": "Ship", "hi": "जहाज़", "ta": "கப்பல்" },
+        { "id": "airplane", "en": "Airplane", "hi": "हवाई जहाज़", "ta": "விமானம்" },
+        { "id": "station", "en": "Station", "hi": "स्टेशन", "ta": "நிலையம்" }
+      ]
+    },
+    {
+      "id": "emotions",
+      "name": "Emotions",
+      "items": [
+        { "id": "happy", "en": "Happy", "hi": "खुश", "ta": "மகிழ்ச்சி" },
+        { "id": "sad", "en": "Sad", "hi": "दुखी", "ta": "வருத்தம்" },
+        { "id": "angry", "en": "Angry", "hi": "गुस्सा", "ta": "கோபம்" },
+        { "id": "hurt", "en": "Hurt", "hi": "दर्द", "ta": "வலி" },
+        { "id": "scared", "en": "Scared", "hi": "डर लगा", "ta": "பயம்" },
+        { "id": "tired", "en": "Tired", "hi": "थका हुआ", "ta": "சோர்வு" },
+        { "id": "surprised", "en": "Surprised", "hi": "आश्चर्यचकित", "ta": "ஆச்சரியம்" },
+        { "id": "worried", "en": "Worried", "hi": "चिंतित", "ta": "கவலை" }
+      ]
+    }
+  ]
+}

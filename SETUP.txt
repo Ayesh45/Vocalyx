@@ -1,0 +1,58 @@
+## FIREBASE SETUP - WEB APP ONLY
+
+### What You Need
+1. Firebase project
+2. Firestore database  
+3. Cloud Storage bucket
+
+### Step 1: Create .env.local
+Copy credentials from Firebase Console → Project Settings:
+
+```
+REACT_APP_FIREBASE_API_KEY=your_value
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_value
+REACT_APP_FIREBASE_PROJECT_ID=your_value
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_value
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_value
+REACT_APP_FIREBASE_APP_ID=your_value
+```
+
+### Step 2: Firestore Rules
+Firebase Console → Firestore → Rules:
+
+```javascript
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
+```
+
+### Step 3: Storage Rules
+Firebase Console → Storage → Rules:
+
+```javascript
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if true;
+    }
+  }
+}
+```
+
+### Step 4: Restart
+```bash
+npm start
+```
+
+### Done
+Your therapist web app now stores all patient data in Firebase:
+- Patient profiles
+- AAC boards
+- Visual schedules
+- Images from Firebase Storage

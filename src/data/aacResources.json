@@ -1,0 +1,588 @@
+{
+  "categories": [
+    {
+      "id": "food",
+      "names": {
+        "en-IN": "Food",
+        "ta-IN": "உணவு",
+        "hi-IN": "खाना",
+        "te-IN": "ఆహారం",
+        "kn-IN": "ಆಹಾರ",
+        "ml-IN": "ഭക്ഷണം"
+      },
+      "items": [
+        {
+          "id": "adhirasam",
+          "names": {
+            "en-IN": "Adhirasam",
+            "ta-IN": "அதிரசம்",
+            "hi-IN": "अधिरसम",
+            "te-IN": "అధిరసం",
+            "kn-IN": "ಅಧಿರಸಂ",
+            "ml-IN": "അധിരസം"
+          },
+          "imageRef": "https://via.placeholder.com/100?text=Adhirasam",
+          "type": "sweet"
+        },
+        {
+          "id": "aloo_gobi",
+          "names": {
+            "en-IN": "Aloo Gobi",
+            "ta-IN": "உருளைக்கிழங்கு கோபி",
+            "hi-IN": "आलू गोभी",
+            "te-IN": "బంధ గోబీ",
+            "kn-IN": "ಆಲೂ ಗೋಬಿ",
+            "ml-IN": "ആലൂ ഗോബി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/aloo_gobi/0b8b93a61c.jpg",
+          "type": "vegetable"
+        },
+        {
+          "id": "biryani",
+          "names": {
+            "en-IN": "Biryani",
+            "ta-IN": "பிரியாணி",
+            "hi-IN": "बिरयानी",
+            "te-IN": "బిరియానీ",
+            "kn-IN": "ಬಿರಿಯಾನಿ",
+            "ml-IN": "ബിരിയാണി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/biryani/46b318a675.jpg",
+          "type": "rice"
+        },
+        {
+          "id": "chapati",
+          "names": {
+            "en-IN": "Chapati",
+            "ta-IN": "சப்பாத்தி",
+            "hi-IN": "चपाती",
+            "te-IN": "చపాతీ",
+            "kn-IN": "ಚಪಾತಿ",
+            "ml-IN": "ചപാതി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/chapati/0bbaf9ac9a.jpg",
+          "type": "bread"
+        },
+        {
+          "id": "chicken_tikka",
+          "names": {
+            "en-IN": "Chicken Tikka",
+            "ta-IN": "கோழி திக்கா",
+            "hi-IN": "चिकन टिक्का",
+            "te-IN": "చికెన్ టిక్కా",
+            "kn-IN": "ಚಿಕನ್ ಟಿಕ್ಕ",
+            "ml-IN": "ചിക്കൻ ടിക്കാ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/chicken_tikka/1d27d9a45b.jpg",
+          "type": "meat"
+        },
+        {
+          "id": "dosa",
+          "names": {
+            "en-IN": "Dosa",
+            "ta-IN": "தோசை",
+            "hi-IN": "डोसा",
+            "te-IN": "డోసా",
+            "kn-IN": "ದೋಸೆ",
+            "ml-IN": "ദോസ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Dosa/7f6d3ebdca842e61864b698a277c5418.jpg",
+          "type": "breakfast"
+        },
+        {
+          "id": "gulab_jamun",
+          "names": {
+            "en-IN": "Gulab Jamun",
+            "ta-IN": "குலாப் ஜாமுன்",
+            "hi-IN": "गुलाब जामुन",
+            "te-IN": "గులాబ్ జామున్",
+            "kn-IN": "ಗುಲಾಬ್ ಜಾಮುನ್",
+            "ml-IN": "ഗുലാബ് ജാമുൻ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/gulab_jamun/07ac023be3.jpg",
+          "type": "sweet"
+        },
+        {
+          "id": "idli",
+          "names": {
+            "en-IN": "Idli",
+            "ta-IN": "இட்லி",
+            "hi-IN": "इडली",
+            "te-IN": "ఇడ్లీ",
+            "kn-IN": "ಇಡ್ಲಿ",
+            "ml-IN": "ഇടലി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/idli/3117798277633d30993e40fdb344e789.jpg",
+          "type": "breakfast"
+        },
+        {
+          "id": "lassi",
+          "names": {
+            "en-IN": "Lassi",
+            "ta-IN": "லஸ்ஸி",
+            "hi-IN": "लस्सी",
+            "te-IN": "లస్సీ",
+            "kn-IN": "ಲಸ್ಸಿ",
+            "ml-IN": "ലസ്സി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/lassi/5b00fb8715.jpg",
+          "type": "beverage"
+        },
+        {
+          "id": "mysore_pak",
+          "names": {
+            "en-IN": "Mysore Pak",
+            "ta-IN": "மைசூர் பாக்",
+            "hi-IN": "मैसूर पाक",
+            "te-IN": "మైసూర్ పాక్",
+            "kn-IN": "ಮೈಸೂರ್ ಪಾಕ್",
+            "ml-IN": "മൈസൂർ പാക്"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/mysore_pak/2a2184930a.jpg",
+          "type": "sweet"
+        },
+        {
+          "id": "naan",
+          "names": {
+            "en-IN": "Naan",
+            "ta-IN": "நான்",
+            "hi-IN": "नान",
+            "te-IN": "నాన్",
+            "kn-IN": "ನಾನ್",
+            "ml-IN": "നാൻ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/naan/2c9d6d7b72.jpg",
+          "type": "bread"
+        },
+        {
+          "id": "palak_paneer",
+          "names": {
+            "en-IN": "Palak Paneer",
+            "ta-IN": "பாலக் பனீர்",
+            "hi-IN": "पालक पनीर",
+            "te-IN": "పాలక్ పనీర్",
+            "kn-IN": "ಪಾಲಕ್ ಪನೀರ್",
+            "ml-IN": "പാലക് പനീർ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/palak_paneer/0c9a2788b5.jpg",
+          "type": "vegetable"
+        },
+        {
+          "id": "paneer_butter_masala",
+          "names": {
+            "en-IN": "Paneer Butter Masala",
+            "ta-IN": "பனீர் வெண்ணை மசாலா",
+            "hi-IN": "पनीर बटर मसाला",
+            "te-IN": "పనీర్ బట్టర్ మసాలా",
+            "kn-IN": "ಪನೀರ್ ಬಟ್ಟರ್ ಮಸಾಲಾ",
+            "ml-IN": "പനീർ ബട്ടർ മസാല"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/paneer_butter_masala/0ec373725e.jpg",
+          "type": "vegetable"
+        },
+        {
+          "id": "rasgulla",
+          "names": {
+            "en-IN": "Rasgulla",
+            "ta-IN": "ரஸ்குல்ல",
+            "hi-IN": "रसगुल्ला",
+            "te-IN": "రస్‌గుల్ల",
+            "kn-IN": "ರಸ್‌ಗುಲ್ಲ",
+            "ml-IN": "രസ്‌ഗുള്ള"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/rasgulla/12dace47fc.jpg",
+          "type": "sweet"
+        },
+        {
+          "id": "sohan_halwa",
+          "names": {
+            "en-IN": "Sohan Halwa",
+            "ta-IN": "சோகன் ஹலவா",
+            "hi-IN": "सोहन हलवा",
+            "te-IN": "సోహన్ హలవా",
+            "kn-IN": "ಸೋಹನ್ ಹಲವಾ",
+            "ml-IN": "സോഹൻ ഹലവാ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/sohan_halwa/2da1332a02.jpg",
+          "type": "sweet"
+        },
+        {
+          "id": "sohan_papdi",
+          "names": {
+            "en-IN": "Sohan Papdi",
+            "ta-IN": "சோகன் பப்டி",
+            "hi-IN": "सोहन पापड़ी",
+            "te-IN": "సోహన్ పప్డీ",
+            "kn-IN": "ಸೋಹನ್ ಪಪ್ಡಿ",
+            "ml-IN": "സോഹൻ പപ്പാടി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/sohan_papdi/0117294577.jpg",
+          "type": "sweet"
+        },
+        {
+          "id": "unni_appam",
+          "names": {
+            "en-IN": "Unni Appam",
+            "ta-IN": "உண்ணி அப்பம்",
+            "hi-IN": "उन्नी अप्पम",
+            "te-IN": "ఉన్నీ అప్పం",
+            "kn-IN": "ಉನ್ನಿ ಅಪ್ಪಮ್",
+            "ml-IN": "ഉന്നി അപ്പം"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/unni_appam/3f563dcb64.jpg",
+          "type": "sweet"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "names": {
+        "en-IN": "Family",
+        "ta-IN": "குடும்பம்",
+        "hi-IN": "परिवार",
+        "te-IN": "కుటుంబం",
+        "kn-IN": "ಕುಟುಂಬ",
+        "ml-IN": "കുടുംബം"
+      },
+      "items": [
+        {
+          "id": "brother",
+          "names": {
+            "en-IN": "Brother",
+            "ta-IN": "சகோதரன்",
+            "hi-IN": "भाई",
+            "te-IN": "సోదరుడు",
+            "kn-IN": "ಸಹೋದರ",
+            "ml-IN": "സഹോദരൻ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Brother/Brother.jpg",
+          "relation": "sibling"
+        },
+        {
+          "id": "dad",
+          "names": {
+            "en-IN": "Dad",
+            "ta-IN": "அப்பா",
+            "hi-IN": "पिता",
+            "te-IN": "తండ్రి",
+            "kn-IN": "ತಂದೆ",
+            "ml-IN": "പിതാവ്"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Dad/Dad.jpg",
+          "relation": "parent"
+        },
+        {
+          "id": "grandfather",
+          "names": {
+            "en-IN": "Grandfather",
+            "ta-IN": "தாத்தா",
+            "hi-IN": "दादा",
+            "te-IN": "తాత",
+            "kn-IN": "ಅಜ್ಜ",
+            "ml-IN": "കാകപ്പ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Grandfather/Grandfather.jpg",
+          "relation": "grandparent"
+        },
+        {
+          "id": "grandmother",
+          "names": {
+            "en-IN": "Grandmother",
+            "ta-IN": "பாட்டி",
+            "hi-IN": "दादी",
+            "te-IN": "అమ్మም",
+            "kn-IN": "ಅಜ್ಜಿ",
+            "ml-IN": "അമ്മച്ചി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Grandmother/Grandmother.jpg",
+          "relation": "grandparent"
+        },
+        {
+          "id": "mom",
+          "names": {
+            "en-IN": "Mom",
+            "ta-IN": "அம்மா",
+            "hi-IN": "माता",
+            "te-IN": "అమ్మ",
+            "kn-IN": "ತಾಯಿ",
+            "ml-IN": "അമ്മ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Mom/Mom.jpg",
+          "relation": "parent"
+        },
+        {
+          "id": "sister",
+          "names": {
+            "en-IN": "Sister",
+            "ta-IN": "சகோதரி",
+            "hi-IN": "बहन",
+            "te-IN": "సోదరి",
+            "kn-IN": "ಸಹೋದರಿ",
+            "ml-IN": "സഹോദരി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/sister/sister.jpg",
+          "relation": "sibling"
+        }
+      ]
+    },
+    {
+      "id": "festivals",
+      "names": {
+        "en-IN": "Festivals",
+        "ta-IN": "திருவிழாக்கள்",
+        "hi-IN": "त्यौहार",
+        "te-IN": "పండుగలు",
+        "kn-IN": "ಹಬ್ಬಗಳು",
+        "ml-IN": "ഉത്സവങ്ങൾ"
+      },
+      "items": [
+        {
+          "id": "christmas",
+          "names": {
+            "en-IN": "Christmas",
+            "ta-IN": "கிறிஸ்துமஸ்",
+            "hi-IN": "क्रिसमस",
+            "te-IN": "క్రిస్‌మస్",
+            "kn-IN": "ಕ್ರಿಸ್‌ಮಸ್",
+            "ml-IN": "ക്രിസ്തുമസ്"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/christmas/christmas.jpg",
+          "month": "December"
+        },
+        {
+          "id": "diwali",
+          "names": {
+            "en-IN": "Diwali",
+            "ta-IN": "தீபாவளி",
+            "hi-IN": "दिवाली",
+            "te-IN": "దివాలీ",
+            "kn-IN": "ದೀಪಾವಳಿ",
+            "ml-IN": "ദിവാളി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/diwali/diwali.jpg",
+          "month": "October-November"
+        },
+        {
+          "id": "eid_mubarak",
+          "names": {
+            "en-IN": "Eid Mubarak",
+            "ta-IN": "ஈத் முபாரக்",
+            "hi-IN": "ईद मुबारक",
+            "te-IN": "ఈద్ ముబారక్",
+            "kn-IN": "ಈದ್ ಮುಬಾರಕ್",
+            "ml-IN": "ഈദ് മുബാരക്"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/eid_mubarak/eid_mubarak.jpg",
+          "month": "Varies"
+        },
+        {
+          "id": "ganesh_chaturthi",
+          "names": {
+            "en-IN": "Ganesh Chaturthi",
+            "ta-IN": "கணேஷ் சதுர்த்தி",
+            "hi-IN": "गणेश चतुर्थी",
+            "te-IN": "గణేష్ చతుర్థి",
+            "kn-IN": "ಗಣೇಶ ಚತುರ್ಥಿ",
+            "ml-IN": "ഗണേശ് ചതുര്ത്തി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Ganesh_chaturthi/Ganesh_chaturthi.jpg",
+          "month": "August-September"
+        },
+        {
+          "id": "holi",
+          "names": {
+            "en-IN": "Holi",
+            "ta-IN": "ஹோலி",
+            "hi-IN": "होली",
+            "te-IN": "హోలీ",
+            "kn-IN": "ಹೋಳಿ",
+            "ml-IN": "ഹോളി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Holi/Holi.jpg",
+          "month": "March"
+        },
+        {
+          "id": "pongal",
+          "names": {
+            "en-IN": "Pongal",
+            "ta-IN": "பொங்கல்",
+            "hi-IN": "पोंगल",
+            "te-IN": "పొంగల్",
+            "kn-IN": "ಪೊಂಗಲ್",
+            "ml-IN": "പോംഗൽ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/pongal/pongal.jpg",
+          "month": "January"
+        }
+      ]
+    },
+    {
+      "id": "transportation",
+      "names": {
+        "en-IN": "Transportation",
+        "ta-IN": "போக்குவரத்து",
+        "hi-IN": "परिवहन",
+        "te-IN": "రవాణా",
+        "kn-IN": "ಸರಿಸಾಟ",
+        "ml-IN": "വാഹനങ്ങൾ"
+      },
+      "items": [
+        {
+          "id": "auto",
+          "names": {
+            "en-IN": "Auto",
+            "ta-IN": "ஆட்டோ",
+            "hi-IN": "ऑटो",
+            "te-IN": "ఆటో",
+            "kn-IN": "ಆಟೋ",
+            "ml-IN": "ഓട്ടോ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/auto/auto.jpg",
+          "type": "three-wheeler"
+        },
+        {
+          "id": "bike",
+          "names": {
+            "en-IN": "Bike",
+            "ta-IN": "பைக்",
+            "hi-IN": "बाइक",
+            "te-IN": "బైక్",
+            "kn-IN": "ಬೈಕ್",
+            "ml-IN": "ബൈക്"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/bike/1f11cd0a475d2661dcbf81e420a79687.jpg",
+          "type": "two-wheeler"
+        },
+        {
+          "id": "car",
+          "names": {
+            "en-IN": "Car",
+            "ta-IN": "கார்",
+            "hi-IN": "कार",
+            "te-IN": "కార్",
+            "kn-IN": "ಕಾರ್",
+            "ml-IN": "കാർ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/car/41ab0e03f044dfd1aaf8fec1fdb478bd.jpg",
+          "type": "four-wheeler"
+        },
+        {
+          "id": "cycle",
+          "names": {
+            "en-IN": "Cycle",
+            "ta-IN": "சைக்கிள்",
+            "hi-IN": "साइकिल",
+            "te-IN": "సైకిల్",
+            "kn-IN": "ಸೈಕಲ್",
+            "ml-IN": "സൈക്കിൾ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/cycle/cycle.jpg",
+          "type": "two-wheeler"
+        },
+        {
+          "id": "lorry",
+          "names": {
+            "en-IN": "Lorry",
+            "ta-IN": "லாரி",
+            "hi-IN": "लारी",
+            "te-IN": "లారీ",
+            "kn-IN": "ಲಾರಿ",
+            "ml-IN": "ലാരി"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/lorry/lorry.jpg",
+          "type": "heavy-vehicle"
+        },
+        {
+          "id": "tempo",
+          "names": {
+            "en-IN": "Tempo",
+            "ta-IN": "டெம்போ",
+            "hi-IN": "टेम्पो",
+            "te-IN": "టెంపో",
+            "kn-IN": "ಟೆಂಪೋ",
+            "ml-IN": "ടെമ്പോ"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/tempo/tempo.jpg",
+          "type": "three-wheeler"
+        }
+      ]
+    },
+    {
+      "id": "professions",
+      "names": {
+        "en-IN": "Professions",
+        "ta-IN": "தொழילகள்",
+        "hi-IN": "पेशे",
+        "te-IN": "వృత్తులు",
+        "kn-IN": "ಪೇಶೆಗಳು",
+        "ml-IN": "ജോലികൾ"
+      },
+      "items": [
+        {
+          "id": "advocate",
+          "names": {
+            "en-IN": "Advocate",
+            "ta-IN": "வழக்குரைஞர்",
+            "hi-IN": "वकील",
+            "te-IN": "న్యాయవాది",
+            "kn-IN": "ವಕೀಲ್",
+            "ml-IN": "അധിവക്ത"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Advocate/Advocate.jpg",
+          "type": "legal"
+        },
+        {
+          "id": "politician",
+          "names": {
+            "en-IN": "Politician",
+            "ta-IN": "அரசியல்வாதி",
+            "hi-IN": "राजनेता",
+            "te-IN": "రాజకీయ నేత",
+            "kn-IN": "ರಾಜಕೀಯಕರ",
+            "ml-IN": "രാഷ്ട്രീയ നേതൃത്വം"
+          },
+          "imageRef": "gs://vocalyx-df528.firebasestorage.app/Indian_clipart/Politician/Politician.jpg",
+          "type": "politics"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "code": "en-IN",
+      "name": "English",
+      "nativeName": "English",
+      "direction": "ltr"
+    },
+    {
+      "code": "ta-IN",
+      "name": "Tamil",
+      "nativeName": "தமிழ்",
+      "direction": "ltr"
+    },
+    {
+      "code": "hi-IN",
+      "name": "Hindi",
+      "nativeName": "हिन्दी",
+      "direction": "ltr"
+    },
+    {
+      "code": "te-IN",
+      "name": "Telugu",
+      "nativeName": "తెలుగు",
+      "direction": "ltr"
+    },
+    {
+      "code": "kn-IN",
+      "name": "Kannada",
+      "nativeName": "ಕನ್ನಡ",
+      "direction": "ltr"
+    },
+    {
+      "code": "ml-IN",
+      "name": "Malayalam",
+      "nativeName": "മലയാളം",
+      "direction": "ltr"
+    }
+  ]
+}
